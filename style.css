@@ -1,0 +1,18 @@
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+  }
+  
+  .square {
+    width: calc(100% / 16);
+    height: calc(100% / 16);
+    /* Adjust styles of the divs as needed */
+  }
