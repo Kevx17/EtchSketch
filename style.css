@@ -12,7 +12,8 @@
   }
   
   .square {
-    width: calc(100% / 16);
-    height: calc(100% / 16);
-    /* Adjust styles of the divs as needed */
+     background-color: rgb(83, 225, 235);
+  }
+  .square:hover{
+    background-color: rgb(221, 40, 40);
   }
